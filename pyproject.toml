@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ofxstatement-santander-es"
+version = "0.1.0"
+authors = [
+  { name="Meli Giuseppe", email="peeeeppppe@gmail.com" },
+]
+description = "Plugin for ofxstatement that supports Santander ES xlsx file"
+readme = "README.rst"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Natural Language :: English",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Topic :: Utilities",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+keywords = ["ofx", "banking", "statement"]
+dependencies = [
+  "ofxstatement",
+  "openpyxl", # Added from setup.py
+  "dataclasses; python_version < '3.7'",
+]
+
+[project.urls]
+Homepage = "https://github.com/kedder/ofxstatement-sample/"
+
+[project.entry-points."ofxstatement"]
+SantanderEs = "ofxstatement_santander_es.plugin:SantanderPlugin" 

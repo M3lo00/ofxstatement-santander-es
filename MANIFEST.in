@@ -1,0 +1,4 @@
+include README.rst
+include pyproject.toml
+recursive-include src/ofxstatement_santander_es *.py
+recursive-include tests *.py *.xlsx
