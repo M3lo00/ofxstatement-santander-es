@@ -10,7 +10,7 @@ suitable for importing to GnuCash or other financial software. This plugin
 parses XLSX files downloaded from Santander ES online banking and produces a
 common data structure that is then formatted into an OFX file.
 
-.. _ofxstatement: https://github.com/kedder/ofxstatement #TODO: Change to the actual URL
+.. _ofxstatement: https://github.com/kedder/ofxstatement
 
 Installation
 ============

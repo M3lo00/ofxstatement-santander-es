@@ -29,7 +29,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/kedder/ofxstatement-sample/"
+Homepage = "https://github.com/M3lo00/ofxstatement-santander-es"
 
 [project.entry-points."ofxstatement"]
 SantanderEs = "ofxstatement_santander_es.plugin:SantanderPlugin" 
