@@ -18,4 +18,4 @@ openpyxl = "*"
 dataclasses = {version = "*", markers = "python_version < '3.7'"}
 
 [requires]
-python_version = "3.9" 
+python_version = ">=3.9" 
