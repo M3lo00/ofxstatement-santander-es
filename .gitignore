@@ -1,1 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+sdist/
+wheels/
+*.egg-info/
+.eggs/
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+bin/
+lib/
+include/
+share/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+
+# Editors
+*.swp
+*~
 .DS_Store
+
+# Specific to this project
+src/ofxstatement_santander_es.egg-info/
