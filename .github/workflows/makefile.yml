@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '>=3.9'
 
     - name: Install pipenv
       run: pip install pipenv
@@ -28,7 +28,7 @@ jobs:
       run: pipenv sync --dev
 
     - name: Run tests
-      run: make tests
-      
+      run: pipenv run make test
+
     - name: Run black
-      run: make black
+      run: pipenv run make black 
