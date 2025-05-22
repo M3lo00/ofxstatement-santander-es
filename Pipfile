@@ -15,6 +15,3 @@ tomli = "*"
 ofxstatement = "*"
 ofxstatement-santander-es = {editable = true,path = "."}
 openpyxl = "*"
-
-[requires]
-python_version = ">=3.9"
